@@ -1,9 +1,11 @@
-data-driven
-===========
+mocha-data-driven
+=================
 
-data-driven is an extension to the [mocha](http://visionmedia.github.io/mocha/) JavaScript testing framework that (as the name implies) data driven testing.
+This is a project forked from [data-driven](https://github.com/fluentsoftware/data-driven).
 
-data-driven allows tests to be wrapped in a block that will run each test within that block for every item in the given data set. 
+mocha-data-driven is an extension to the [mocha](http://visionmedia.github.io/mocha/) JavaScript testing framework that (as the name implies) data driven testing.
+
+mocha-data-driven allows tests to be wrapped in a block that will run each test within that block for every item in the given data set. 
 
 ###Specifying test data
 
@@ -18,7 +20,7 @@ Test descriptions can have placeholders wrapped in ```{}```. Any placeholders th
 ## Example
 
 ```javascript
-var data_driven = require('data-driven')
+var data_driven = require('mocha-data-driven')
 
 describe('Array', function() {
   describe('#indexOf()', function(){
@@ -55,5 +57,5 @@ describe('some async function', function() {
 
 ## Installation
 
-To start using data-driven, simply add a dependency to ```data-driven``` ```1.0.0``` to your package.json, and run ```npm install```.
+To start using mocha-data-driven, simply add a dependency to ```mocha-data-driven``` ```1.0.1``` to your package.json, and run ```npm install```.
 
