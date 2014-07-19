@@ -17,10 +17,10 @@
 
                 var testFn = f.length < 2 ? 
                     function() {
-                        f(testData)
+                        f.call(this,testData)
                     } : 
                     function(done) {
-                        f(testData,done)
+                        f.call(this,testData,done)
                     }
                     
                 mochaIt(title, testFn)
