@@ -1,6 +1,6 @@
 {
-  "name": "data-driven",
-  "version": "1.0.0",
+  "name": "mocha-data-driven",
+  "version": "1.0.1",
   "description": "data driven testing for mocha",
   "keywords": [
     "mocha",
@@ -10,10 +10,10 @@
     "data",
     "data driven"
   ],
-  "author": "Matthew Todd <matthew.todd@fluentsoftware.co.uk>",
+  "author": "Shinya Kawaguchi <Shinya.Kawaguchi@jp.sony.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/fluentsoftware/data-driven.git"
+    "url": "git://github.com/s-kawaguchi/mocha-data-driven.git"
   },
   "main": "./index",  
   "engines": {
